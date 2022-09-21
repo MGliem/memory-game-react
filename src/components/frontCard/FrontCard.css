@@ -1,0 +1,15 @@
+.front-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 5vh;
+  border-radius: 5px;
+  background-color: white;
+  transform: rotateY(180deg);
+}

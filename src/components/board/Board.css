@@ -1,0 +1,16 @@
+.board {
+    padding: 15px;
+    /*display: none;*/
+    width: 40vh;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 15px;
+    background: linear-gradient(
+      162deg,
+      rgba(126, 13, 223, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 190, 0, 1) 100%
+    );
+  }
